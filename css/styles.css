@@ -893,6 +893,9 @@ textarea:focus {
 .modal-checkbox:checked + .modal-checkbox-label {
   background-color: rgba(33, 150, 243, 1);
   border-color: rgba(33, 150, 243, 1);
+  transition-duration: 250ms;
+  transition-property: border-color, background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
 }
 .modal-paragraph {
